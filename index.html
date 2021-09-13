@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Index</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body>
+
+    <div class="container-1">
+        <h2>Challange 1: You Age in Days</h2>
+        <div class="flex-box-1">
+            <button class="blue-button" id="clickMe">Click me</button>
+            <button class="red-button" id="reset">Reset</button>
+        </div>
+        <div class="result-div">
+            <div id="result">
+            
+            </div>
+        </div>
+    </div>
+    <div class="container-2">
+        <h2>Challange 2: Generate BAT</h2>
+        <div class="flex-box-2">
+            <button class="green-button" id="generate">Generate BAT</button>
+        </div>
+        <div class="bat-container" id="batman-div">
+
+        </div>
+    </div>
+    <div class="container-3">
+        <h2>Challange 3: Rock,Paper,Scissors</h2>
+        <div class="flex-box-3" id="game-div">
+            <img src="images/rock.jpg" id="rock" onclick="rpsGame(this)">
+            <img src="images/paper.png" id="paper" onclick="rpsGame(this)">
+            <img src="images/scissors.jpeg" id="scissors" onclick="rpsGame(this)">
+        </div>
+    </div>
+    <div class="container-4"> 
+        <h2>Challange 4:Change the color of all buttons</h2>
+        <div class="flex-box-4">
+            <form >
+                <select name="Color" id="colors">
+                    <option value="random" id="rnd">Random</option>
+                    <option value="red" id="rd">Red</option>
+                    <option value="green">Green</option>
+                    <option value="reset">Reset</option>
+                </select>
+            </form>
+            <button class="blue-button">Wee!</button>
+            <button class="red-button">Yahoo!</button>
+            <button class="yellow-button">Google!</button>
+            <button class="green-button">Facebook!</button>
+        </div>
+    </div>
+    <div class="container-5">
+        <h2>Challange 5: Blackjack</h2>
+        <h3 ><span id="msg">Lets Play !</span> </h3>
+        <div class="flex-box-5">
+            <div id="you">
+                <h2>You: <span id="yourscore">0</span></h2>
+            </div>
+            <div id="dealer">
+                <h2>Dealer: <span id="dealerscore">0</span></h2>
+            </div>
+        </div>
+        <div id="buttonsdiv">
+            <div>
+                <button class="blue-button" id="hit">Hit</button>
+                <button class="yellow-button" id="stand">Stand</button>
+                <button class="red-button" id="deal">Deal</button>
+            </div>
+        </div>
+        <div id="resultdiv">
+            <table class="tb">
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id="draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>

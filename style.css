@@ -1,0 +1,130 @@
+.container-1,.container-2,.container-3,.container-4,.container-5
+{
+    width: 75%;
+    margin: 0 auto;
+    border: 3px solid black;
+    text-align: center;
+}
+.flex-box-1,.flex-box-3,.flex-box-4,.flex-box-5
+{
+    display:flex;
+    border:1px solid black;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.flex-box-5,#buttonsdiv
+{
+    background: url("images/blackjack.jpg") center;
+    color: white;
+}
+.flex-box-5 img
+{
+    height: 135px;
+    width: 135px;
+    margin: 10px;
+}
+.flex-box-4 button
+{
+    margin: 10px;
+}
+.flex-box-1 div 
+{
+    display:flex;
+    
+    border: 1px solid black;
+    align-items: center;
+}
+.flex-box-1 button
+{
+    margin: 10px;
+    border: 1px solid black;
+}
+.flex-box-3 img
+{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+.flex-box-3 img:hover
+{
+    box-shadow:0px 10px 50px rgba(37, 50, 233, 1);;
+}
+.flex-box-5 div
+{
+    border: 1px solid black;
+    height: 380px;
+    flex: 1;
+    text-align:center;
+    
+}
+.blue-button
+{
+    background-color: rgb(0, 195, 255);
+    color: white;
+    height: 40px;
+    width: 80px;
+}
+.red-button
+{
+    background-color: rgb(255, 100,0);
+    color:white;
+    height: 40px;
+    width: 80px;    
+}
+.green-button
+{
+    background-color: rgb(0, 255,0);
+    color:white;
+    height: 40px;
+    width: 80px;
+}
+.yellow-button
+{
+    background-color: rgb(255, 255, 0);
+    color:black;
+    height: 40px;
+    width: 80px;   
+}
+.bat-container
+{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.bat-container img
+{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+#buttonsdiv div
+{
+    padding: 10px;
+    border: 1px solid black;
+}
+#buttonsdiv button
+{
+    margin: 7px;
+}
+.tb
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+table,th,td
+{
+    padding: 5px;
+    border: 1px solid black;
+}
+h2
+{
+    font-size:xx-large;
+}
+h3
+{
+    font-size: 30px;
+}
